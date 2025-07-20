@@ -308,7 +308,7 @@ interface e1/2
    ip ospf network point-to-point
     do sh ip ospf int e1/2
 
-Task3: Eigrp and Ospf Redistribution:
+Task3: Eigrp and Ospf Redistribution: 6 fig skillz
 R4: sikat: Eigrp and OSPF world:
 config T
 router eigrp 100
