@@ -254,6 +254,17 @@ network 55.55.55.55 mask 255.255.255.255
 network 8.8.8.8 mask 255.255.255.255
 end
 
+R1:
+conf t
+router ospf 1
+default-information originate always
+end
+
+R4:
+conf t
+
+
+
 
 
 
